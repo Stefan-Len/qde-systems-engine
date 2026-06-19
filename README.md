@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/qde-systems-group-banner.png" alt="QDE-Systems Group banner" width="100%">
+  <img src="assets/qde-systems-group-banner.png" alt="QDE-Systems banner" width="100%">
 </p>
 
 # QDE-Systems Group
