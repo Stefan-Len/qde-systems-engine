@@ -1,6 +1,6 @@
 # Membership
 
-This document will describe the high-level membership model for QDE Systems
+This document will describe the high-level membership model for QDE-Systems
 Group.
 
 Planned content:

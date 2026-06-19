@@ -1,8 +1,8 @@
 # What We Do Not Do
 
-This document will define the hard boundaries of QDE Systems Group.
+This document will define the hard boundaries of QDE-Systems Group.
 
-QDE Systems Group does not provide:
+QDE-Systems Group does not provide:
 
 - financial advice;
 - investment advice;

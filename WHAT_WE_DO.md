@@ -1,6 +1,6 @@
 # What We Do
 
-This document will explain what QDE Systems Group members may work on together.
+This document will explain what QDE-Systems Group members may work on together.
 
 Planned content:
 

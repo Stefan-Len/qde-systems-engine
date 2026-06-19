@@ -1,9 +1,9 @@
 # Notice
 
-QDE, QDE-Systems, QDE Systems Group, and related names are associated with
+QDE, QDE-Systems, QDE-Systems Group, and related names are associated with
 Štefan Lengyel, trading as Stefan Len / QDE-Systems.
 
-QDE Systems Group is a private technical operator community. It is not a fund,
+QDE-Systems Group is a private technical operator community. It is not a fund,
 investment club, trading signal room, managed account service, broker service,
 or financial advice group.
 

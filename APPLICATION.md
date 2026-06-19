@@ -1,6 +1,6 @@
 # Application
 
-This document will explain how access to QDE Systems Group may be requested.
+This document will explain how access to QDE-Systems Group may be requested.
 
 Planned application flow:
 
@@ -8,7 +8,7 @@ Planned application flow:
 2. Provide a short background introduction.
 3. Explain relevant futures, systematic trading, development, quant, or
    technical operator experience.
-4. Explain why QDE Systems Group is relevant to you.
+4. Explain why QDE-Systems Group is relevant to you.
 5. Confirm that you understand this is not a beginner trading product, signal
    service, trading room, or financial advice group.
 6. A short fit-check call may be required before access is offered.

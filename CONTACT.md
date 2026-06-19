@@ -1,6 +1,6 @@
 # Contact
 
-For QDE Systems Group access inquiries, contact Stefan Len / QDE-Systems.
+For QDE-Systems Group access inquiries, contact Stefan Len / QDE-Systems.
 
 Planned contact paths:
 

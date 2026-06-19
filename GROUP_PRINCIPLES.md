@@ -1,6 +1,6 @@
 # Group Principles
 
-This document will describe the operating principles of QDE Systems Group.
+This document will describe the operating principles of QDE-Systems Group.
 
 Planned content:
 

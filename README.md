@@ -1,6 +1,10 @@
-# QDE Systems Group
+<p align="center">
+  <img src="assets/qde-systems-group-banner.png" alt="QDE-Systems Group banner" width="100%">
+</p>
 
-QDE Systems Group is a private technical operator community for selected licensed
+# QDE-Systems Group
+
+QDE-Systems Group is a private technical operator community for selected licensed
 users of QDE-Systems deterministic execution infrastructure.
 
 We do not trade together. We operate and improve our own systems in parallel.
@@ -9,7 +13,7 @@ This repository is the public information page for the group. It explains what
 the group is, who it is for, what it does, what it does not do, and how to apply
 for access.
 
-QDE Systems Group is not a fund, investment club, trading signal room, managed
+QDE-Systems Group is not a fund, investment club, trading signal room, managed
 account service, broker service, or financial advice group.
 
 ## Read First
