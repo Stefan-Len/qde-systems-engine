@@ -1,29 +1,30 @@
-<p align="center">
-  <img src="assets/qde-systems-group-banner.png" alt="QDE-Systems banner" width="100%">
-</p>
+# QDE-Systems Engine
 
-# QDE-Systems Group
+Public positioning skeleton for QDE-Systems deterministic execution
+infrastructure.
 
-QDE-Systems Group is a private technical operator community for selected licensed
-users of QDE-Systems deterministic execution infrastructure.
+This repository will become the public GitHub landing material for the QDE ES
+Deterministic Execution Infrastructure Package. The current files are
+placeholders: they define the reading order and page boundaries before the final
+English copy is written.
 
-We do not trade together. We operate and improve our own systems in parallel.
+The main product direction is source-code execution infrastructure. Community
+access, if included, is an optional technical layer and not the main product.
 
-This repository is the public information page for the group. It explains what
-the group is, who it is for, what it does, what it does not do, and how to apply
-for access.
+## Reading Path
 
-QDE-Systems Group is not a fund, investment club, trading signal room, managed
-account service, broker service, or financial advice group.
+1. [Opening Note](01_OPENING_NOTE.md)
+2. [Why QDE Exists](02_WHY_QDE_EXISTS.md)
+3. [What QDE Is](03_WHAT_QDE_IS.md)
+4. [What QDE Is Not](04_WHAT_QDE_IS_NOT.md)
+5. [Why Determinism Matters](05_WHY_DETERMINISM_MATTERS.md)
+6. [Why Audit Matters](06_WHY_AUDIT_MATTERS.md)
+7. [Why Fail-Closed Matters](07_WHY_FAIL_CLOSED_MATTERS.md)
+8. [Broker Boundary](08_BROKER_BOUNDARY.md)
+9. [AI Agent Workflow](09_AI_AGENT_WORKFLOW.md)
+10. [Community](10_COMMUNITY.md)
+11. [About the Author](11_ABOUT_THE_AUTHOR.md)
+12. [Author Note](12_AUTHOR_NOTE.md)
+13. [Access and Contact](13_ACCESS_AND_CONTACT.md)
 
-## Read First
-
-- [GROUP_PRINCIPLES.md](GROUP_PRINCIPLES.md)
-- [WHAT_WE_DO.md](WHAT_WE_DO.md)
-- [WHAT_WE_DO_NOT_DO.md](WHAT_WE_DO_NOT_DO.md)
-- [APPLICATION.md](APPLICATION.md)
-- [COMMUNITY_RULES_PREVIEW.md](COMMUNITY_RULES_PREVIEW.md)
-- [TECHNICAL_REFERENCE.md](TECHNICAL_REFERENCE.md)
-- [MEMBERSHIP.md](MEMBERSHIP.md)
-- [CONTACT.md](CONTACT.md)
-- [NOTICE.md](NOTICE.md)
+See [Notice](NOTICE.md) for attribution, third-party, and public boundary notes.
