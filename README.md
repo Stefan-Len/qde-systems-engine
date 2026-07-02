@@ -26,5 +26,7 @@ access, if included, is an optional technical layer and not the main product.
 11. [About the Author](11_ABOUT_THE_AUTHOR.md)
 12. [Author Note](12_AUTHOR_NOTE.md)
 13. [Access and Contact](13_ACCESS_AND_CONTACT.md)
+14. [Technical Overview](14_TECHNICAL_OVERVIEW.md)
 
 See [Notice](NOTICE.md) for attribution, third-party, and public boundary notes.
+See [License](LICENSE.md) for the public repository content license.

@@ -10,4 +10,4 @@ This page must not become a performance claim, a guarantee, a trading story, or
 financial advice.
 
 Source draft: split and rewrite the final-note material from the retired
-`START_HERE_HU.md`.
+START_HERE direction.
