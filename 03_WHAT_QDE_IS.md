@@ -4,6 +4,12 @@ QDE is a deterministic execution engine for the E-mini S&P 500 futures market.
 It is a source-code-based system with its own UI, ML/model integration, risk
 gates, an audit trail, and a controlled execution boundary.
 
+The naming is intentional. QDE stands for Quant Deterministic Execution. The
+technical core is the Quant Deterministic Execution Engine; the public/commercial
+package is the QDE ES Deterministic Execution Infrastructure Package. In other
+words: the engine is the core system, while the package is the delivered
+source-code, documentation, validation, audit, and workflow boundary around it.
+
 This is intentionally a focused system. It is not positioned as a general
 multi-market or multi-instrument trading platform. The focus matters because, on
 the execution, risk, audit, validation, market-data, and broker-boundary side,

@@ -22,6 +22,12 @@
 QDE-Systems is deterministic execution infrastructure for people who take
 trading seriously, but do not think only in setups and indicators.
 
+Naming note: QDE means Quant Deterministic Execution. The core system is the
+Quant Deterministic Execution Engine. The public/commercial package is described
+as the QDE ES Deterministic Execution Infrastructure Package because the buyer
+receives more than an engine name: source code, documentation, validation
+workflow, audit discipline, and package boundaries.
+
 I am interested in trading and execution systems where the decision path, risk
 control, execution boundary, and audit evidence do not disappear into a black
 box. The goal is to make it clearer what the system is doing, why it allows or
