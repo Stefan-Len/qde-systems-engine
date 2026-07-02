@@ -7,6 +7,12 @@
 <p align="center">
   <img alt="Repository: public positioning" src="https://img.shields.io/badge/repository-public%20positioning-2f6fef">
   <img alt="Focus: S&P 500 futures" src="https://img.shields.io/badge/focus-S%26P%20500%20futures-555555">
+  <img alt="Execution: deterministic" src="https://img.shields.io/badge/execution-deterministic-0f766e">
+  <img alt="Risk: fail-closed" src="https://img.shields.io/badge/risk-fail--closed-d97706">
+  <img alt="Audit: evidence first" src="https://img.shields.io/badge/audit-evidence%20first-2563eb">
+  <img alt="Agents: AI agent workflow" src="https://img.shields.io/badge/agents-AI%20agent%20workflow-7c3aed">
+  <img alt="ML: model integration" src="https://img.shields.io/badge/ML-model%20integration-059669">
+  <img alt="Broker: no built-in production adapter" src="https://img.shields.io/badge/broker-no%20built--in%20production%20adapter-8b5cf6">
   <img alt="Platform: macOS UI" src="https://img.shields.io/badge/platform-macOS%20UI-111111">
   <img alt="Python 3.10+" src="https://img.shields.io/badge/python-3.10%2B-3776ab">
   <img alt="Boundary: not financial advice" src="https://img.shields.io/badge/boundary-not%20financial%20advice-b91c1c">
