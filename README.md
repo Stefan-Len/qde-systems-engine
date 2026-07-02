@@ -170,7 +170,12 @@ presentation and access/contact repository for QDE-Systems Engine.
 
 Brand and product identity notice: see [NOTICE](NOTICE.md).
 
-Contact: stefanlen@qde-systems.com
+## Official Links
+
+- GitHub: [Stefan-Len](https://github.com/Stefan-Len)
+- LinkedIn: [Stefan Len](https://www.linkedin.com/in/stefan-len-963813362/)
+- X: [@StefanLenQDE](https://x.com/StefanLenQDE)
+- Email: stefanlen@qde-systems.com
 
 ## Author
 
