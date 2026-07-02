@@ -74,7 +74,7 @@ service.
 
 ### Planned launch access fee
 
-**3000 EUR one-time package access fee**
+**3500 USD one-time package access fee**
 
 This is the planned public launch fee, excluding any applicable VAT, taxes, or
 sales-channel charges unless the final checkout / purchase flow states
