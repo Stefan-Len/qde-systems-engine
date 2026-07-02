@@ -72,11 +72,15 @@ service.
 
 ## Price And Limited Slots
 
-The planned public launch one-time package access fee is:
+### Planned launch access fee
 
-> 3000 EUR
+**3000 EUR one-time package access fee**
 
-This is a one-time payment for access to the QDE source-code package within the
+This is the planned public launch fee, excluding any applicable VAT, taxes, or
+sales-channel charges unless the final checkout / purchase flow states
+otherwise.
+
+It is a one-time payment for access to the QDE source-code package within the
 accepted order. It is not a monthly signal subscription, not the price of a
 financial product, not a managed trading fee, and not a broker or support
 service fee.
