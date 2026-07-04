@@ -48,6 +48,13 @@ deterministic execution infrastructure direction can be inspected from the
 outside: risk-gated decision path, audit trail, fail-closed boundary, and more
 controlled execution thinking.
 
+Public demo video:
+[Watch a short QDE demo](https://drive.google.com/file/d/19hhlTOjj7928KlwJkiBvZwxWfaHXwMsf/view?usp=drive_link)
+
+The demo is a public visual preview. It is not source-code delivery, not a
+license grant, not a performance claim, and not a LIVE-ready or broker-ready
+claim.
+
 Short technical prerequisite: the QDE native operator UI is macOS-oriented. A
 compatible Mac and Xcode environment is required for the full local UI workflow;
 the backend is Python `>=3.10`. The detailed minimum environment is always
