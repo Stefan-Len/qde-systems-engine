@@ -17,7 +17,7 @@ broker service, not a managed account, not pooled capital, not portfolio
 management, and not a performance guarantee.
 
 Any technical description, diagram, screenshot, wording, public reference,
-code-related explanation, or community/contact information in the repository is
+code-related explanation, or contact information in the repository is
 not an instruction to buy, sell, hold, avoid, or trade any financial instrument.
 
 ## No Performance Or Readiness Promise
@@ -40,9 +40,9 @@ order, is interpreted under its separate license, package scope, disclaimer,
 refund policy, applicable purchase terms, delivery manifest, and checksum /
 delivery evidence.
 
-Reading the public repository, submitting a form, sending an email, or asking
-about community access does not create a license, purchase, acceptance, delivery
-obligation, support obligation, or broker/account helpdesk relationship.
+Reading the public repository or sending an email does not create a license,
+purchase, acceptance, delivery obligation, support obligation, or broker/account
+helpdesk relationship.
 
 ## Third-Party Names
 
@@ -69,14 +69,13 @@ where the repository separately identifies a third-party right.
 
 This notice does not grant any third party a license to use, copy, publish,
 redistribute, or sublicense QDE source code, private documentation, brand, logo,
-repository access, commercial package, Discord / community access, or
-buyer-private material.
+repository access, commercial package, or buyer-private material.
 
 ## Contact Boundary
 
-The email, form, or access/contact information in this public repository is for
-admin and access-request purposes.
+The email or access/contact information in this public repository is for
+administrative contact purposes.
 
-Sending an email or form does not mean automatic acceptance, support SLA,
-response-time commitment, one-to-one implementation help, broker setup help, a
-trading advice relationship, or a managed service relationship.
+Sending an email does not mean automatic acceptance, support SLA, response-time
+commitment, one-to-one implementation help, broker setup help, a trading advice
+relationship, or a managed service relationship.

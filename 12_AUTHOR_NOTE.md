@@ -82,7 +82,7 @@ The boundaries are not weaknesses:
 - no broker-ready or LIVE-ready promise;
 - no automatic broker integration;
 - no responsibility taken over by an AI agent;
-- no responsibility taken over by a community.
+- no responsibility transferred to anyone else.
 
 These boundaries are stated because without them, the system could be understood
 in the wrong direction.

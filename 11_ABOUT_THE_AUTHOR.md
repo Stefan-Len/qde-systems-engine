@@ -22,7 +22,7 @@ I am not a YouTube teacher.
 
 I am not a signal seller.
 
-I am not building a Dubai-style signal group, a "VIP trade room", or a community
+I am not building a Dubai-style signal group, a "VIP trade room", or a place
 where someone else tells people when to buy or sell.
 
 I do not want to create the impression that the market problem can be solved
@@ -108,7 +108,7 @@ Not that anyone blindly follows a system.
 Not that someone thinks: because this is source code, production LIVE trading is
 already ready.
 
-And not that a community or AI agent takes over responsibility.
+And not that another person or AI agent takes over responsibility.
 
 What I want is for someone who thinks seriously about trading/execution systems
 to see another direction:

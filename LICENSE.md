@@ -54,7 +54,7 @@ Without prior written permission, you must not:
   your own product, service, trading group, course, signal room, broker service,
   or marketing material;
 - use QDE, QDE-Systems, QDE-Systems Engine, or related naming / brand elements as
-  your own brand, domain, social handle, product name, or community name;
+  your own brand, domain, social handle, product name, or group name;
 - create a derivative commercial presentation from the repository content;
 - use the repository content as training data, prompt library, agent template,
   documentation template, or for automated content generation in a way that
@@ -62,8 +62,7 @@ Without prior written permission, you must not:
 - remove or hide attribution, notice, license, no-advice, no-signal,
   no-support, broker-boundary, or no-performance boundary text;
 - use the public content as if you had received a QDE source-code license,
-  purchase, delivery, support, community access, or broker/helpdesk
-  relationship.
+  purchase, delivery, support, or broker/helpdesk relationship.
 
 ## 4. No Commercial Package Rights
 
@@ -73,7 +72,6 @@ This public repository license does not grant:
 - private repository access;
 - commercial license;
 - sublicensing, resale, redistribution, or white-label rights;
-- Discord / community access;
 - support, response-time commitment, or implementation help;
 - broker integration, broker account help, or LIVE-readiness rights;
 - any right to use QDE source code, private docs, delivery artifacts, or
@@ -85,14 +83,13 @@ purchase terms, delivery manifest, and checksum / delivery evidence.
 
 ## 5. No Endorsement Or Affiliation
 
-Reading, linking, quoting, submitting a form, sending an email, or asking about
-community access does not mean endorsement, partnership, affiliate relationship,
-authorized reseller status, acceptance, purchase, delivery, or support
-relationship.
+Reading, linking, quoting, or sending an email does not mean endorsement,
+partnership, affiliate relationship, authorized reseller status, acceptance,
+purchase, delivery, or support relationship.
 
 You may not claim that QDE-Systems, Stefan Len, or any related QDE name
 supports, recommends, audited, validated, or approved your system, strategy,
-trading service, broker setup, community, course, or marketing material unless a
+trading service, broker setup, course, or marketing material unless a
 separate written agreement expressly says so.
 
 ## 6. Attribution

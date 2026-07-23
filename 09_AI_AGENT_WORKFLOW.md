@@ -183,5 +183,5 @@ In short:
 >
 > We want an evidence-first technical reviewer.
 
-The next section shows how the community fits into this: as a technical peer
-layer, not as a signal room or managed service.
+The next section moves from the agent workflow to the author and project
+boundary.

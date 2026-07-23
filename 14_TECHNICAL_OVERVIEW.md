@@ -218,5 +218,6 @@ That is the point of this technical overview:
 
 > not a black box, but a reviewable execution infrastructure direction.
 
-For the next step, see the access/contact page: form, personal review, pre-order
-technical summary, terms, acceptance, payment, and only then any delivery.
+For the next step, see the access/contact page: contact path, personal review,
+pre-order technical summary, terms, acceptance, payment, and only then any
+delivery.

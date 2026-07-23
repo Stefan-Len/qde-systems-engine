@@ -133,17 +133,6 @@ evidence, consistency, broken links, overclaims, drift, uncertainty, and review
 packets. In plain terms: it does not trade for you. It helps make clearer what
 needs to be checked, fixed, or decided.
 
-## Community
-
-If community access is part of a given launch or package, it is technical
-peer-to-peer access. It is not the main product, not a support SLA, not a signal
-room, not an investment club, and not a managed account service.
-
-The principle:
-
-> We do not trade together. Everyone operates, validates, and improves their own
-> system, evidence-first.
-
 ## If You Want To Read Further
 
 This README is only the short entry point. The more detailed public material is
@@ -160,17 +149,17 @@ Start here and read through the pages one by one:
 7. [Why Fail-Closed Matters](07_WHY_FAIL_CLOSED_MATTERS.md) - why uncertain states should block instead of proceeding blindly.
 8. [Broker Boundary](08_BROKER_BOUNDARY.md) - where the broker boundary is, and why production broker integration is buyer-side work.
 9. [AI Agent Workflow](09_AI_AGENT_WORKFLOW.md) - how I use AI agents as reviewers, not trading operators.
-10. [Community](10_COMMUNITY.md) - what the optional technical community layer means, and what it does not mean.
-11. [About the Author](11_ABOUT_THE_AUTHOR.md) - who is behind the project, without hype or performance marketing.
-12. [Author Note](12_AUTHOR_NOTE.md) - how to read the project and its boundaries.
-13. [Access and Contact](13_ACCESS_AND_CONTACT.md) - how to request a next step or access review.
-14. [Technical Overview](14_TECHNICAL_OVERVIEW.md) - a high-level technical overview without private source-code details.
+10. [About the Author](11_ABOUT_THE_AUTHOR.md) - who is behind the project, without hype or performance marketing.
+11. [Author Note](12_AUTHOR_NOTE.md) - how to read the project and its boundaries.
+12. [Access and Contact](13_ACCESS_AND_CONTACT.md) - how to contact QDE-Systems about a possible next step.
+13. [Technical Overview](14_TECHNICAL_OVERVIEW.md) - a high-level technical overview without private source-code details.
 
 If, after that reading path, QDE seems aligned with how you think about trading
 systems, the next step is the [Access and Contact](13_ACCESS_AND_CONTACT.md)
-page. That page contains the access request path. Submitting the form is not an
-order, not checkout, not a license grant, and not a guarantee of acceptance; I
-review requests personally and decide whether it makes sense to continue.
+page. That page contains the contact path and public boundary notes. Email
+contact is not an order, not checkout, not a license grant, and not a guarantee
+of acceptance; I review the context personally and decide whether it makes sense
+to continue.
 
 See [Notice](NOTICE.md) for attribution, third-party, and public boundary notes.
 
