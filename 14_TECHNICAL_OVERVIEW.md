@@ -33,6 +33,14 @@ A good execution system should not only ask whether something should happen. It
 should also make it reviewable why something was allowed, blocked, delayed, or
 left alone.
 
+## Who This Is For
+
+This overview is for technical readers who care about execution infrastructure,
+controlled validation, auditability, risk boundaries, and operator discipline.
+
+It is not written for someone looking for signals, copy-paste setups, managed
+trading, or a promise that a system will produce profit.
+
 ## Core Engineering Ideas
 
 QDE is built around a few engineering principles.
@@ -101,6 +109,22 @@ rules.
 
 Credentials should stay outside public repositories, documentation examples,
 agent prompts, and raw shared logs.
+
+## Public Demo Boundary
+
+The public demo video, if shared, is a visual preview only. It is not
+source-code delivery, not a license grant, not performance proof, and not a
+broker-ready or LIVE-ready claim.
+
+## Delivery Scope Is Separate
+
+The exact delivered package is not defined by this public overview. It is
+defined separately by the applicable package scope, license, disclaimer,
+purchase terms, delivery manifest, and checksum or delivery evidence.
+
+This page explains the direction and engineering philosophy. It does not expand
+the delivered scope, create extra obligations, or replace the private package
+documentation.
 
 ## What This Overview Does Not Reveal
 
