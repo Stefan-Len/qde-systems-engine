@@ -1,223 +1,139 @@
 # Technical Overview
 
-This short technical overview is meant to show the system logic QDE is built
-around, without publicly exposing the private details of the commercial
-source-code package.
+This public technical overview explains the QDE direction at a high level. It is
+intentionally limited. It does not expose private implementation details,
+internal thresholds, source-code structure, package manifest details, model
+artifacts, broker-adapter implementation, credentials, or buyer-private
+delivery documentation.
 
 This is not source-code delivery.
-
-Not full architecture documentation.
 
 Not a private implementation guide.
 
 Not a broker integration manual.
 
-And not performance proof.
+Not a trading strategy document.
 
-This is a public, high-level technical overview: enough to understand the
-direction, but not a replacement for the later package scope, license,
-applicable purchase terms, delivery manifest, or private technical
-documentation.
+Not a performance claim.
+
+The purpose of this page is simple: show the engineering philosophy behind QDE
+without turning the public repository into the commercial technical package.
 
 ## In Short
 
-QDE is a deterministic execution engine for the E-mini S&P 500 futures market.
+QDE is source-code-based deterministic execution infrastructure for futures
+market environments.
 
-This public technical scope is intentionally framed around one instrument
-direction. Not because other markets are technically uninteresting, but because
-QDE's value is in the disciplined execution pipeline, risk boundary, auditable
-decision path, and validation work. These are cleaner to present, inspect, and
-bound first around one concrete instrument focus.
+The focus is not on presenting a signal, a secret setup, or a black-box trading
+promise. The focus is on building a controlled execution environment where data,
+decision flow, risk boundaries, audit evidence, operator review, and validation
+work are treated as first-class parts of the system.
 
-The system's core is not one "secret setup", but a more controlled execution
-pipeline:
+A good execution system should not only ask whether something should happen. It
+should also make it reviewable why something was allowed, blocked, delayed, or
+left alone.
 
-```text
-market data
-  -> normalization
-  -> feature / model path
-  -> signal or NO_SIGNAL
-  -> risk gate
-  -> execution boundary
-  -> audit / diagnostics / operator UI
-```
+## Core Engineering Ideas
 
-That order matters.
+QDE is built around a few engineering principles.
 
-Not because it makes the market predictable. It matters because the decision
-path is less likely to disappear into a black box.
+**Deterministic behavior**
 
-If the system returns `NO_SIGNAL` instead of a signal, the reason should be
-reviewable. If the risk gate blocks, it should be visible why it blocked. If a
-runtime state is uncertain, the system should not assume everything is fine.
+The same relevant input, configuration, and runtime state should lead to the
+same decision path. This matters because a system that cannot be replayed or
+reviewed is difficult to trust, debug, or improve.
 
-## Main Layers
+**Separated boundaries**
 
-Several layers are separated in the way QDE thinks.
+Market data, model output, signal logic, risk control, execution boundary,
+audit, diagnostics, and operator display should not be blurred into one opaque
+block. Separation makes review, testing, and controlled change possible.
 
-**Market data and normalization**
+**Explicit risk control**
 
-The first step is controlled data preparation. The goal is not to force a
-decision from any feed in any state, but for the pipeline to know what input it
-is working from.
+Risk controls are not decorative warnings. They are part of the execution
+boundary. If the system cannot prove that a state is safe enough to continue,
+the safer direction is to stop, block, or require review.
 
-**Feature / model path**
+**Auditability**
 
-The system works with ML/model integration, but model output by itself is not a
-trading instruction. The model is only one part of the decision path. After that
-comes the signal gate, then the risk gate.
+A serious system needs evidence. Decisions, blocks, runtime state, and important
+operator-facing events should be reviewable later through structured evidence,
+not only through memory or screenshots.
 
-**Signal gate**
+**Fail-closed behavior**
 
-The signal gate separates whether there is even a state the system may allow
-forward. `NO_SIGNAL` is not an error. Often, the correct output is exactly that
-the system does nothing.
+When important runtime state is missing, stale, inconsistent, or uncertain, the
+system should not silently continue as if everything is fine. In uncertain
+conditions, blocking is often the correct behavior.
 
-**Risk gate**
+**Operator responsibility**
 
-The risk gate is not decoration. It is one of the most important boundaries. If
-the risk side does not allow something, the execution direction must not proceed
-as if only a UI warning had happened.
+QDE is not designed to remove responsibility from the operator. It is designed
+to make the system easier to inspect, validate, maintain, and review.
 
-**Execution boundary**
+## AI-Agent Assisted Workflow
 
-The execution boundary is a separate layer. This is where it is decided whether
-an operation may even begin. It is not the same as the strategy or model output.
-In the system's mindset, execution must not be a blind consequence.
+QDE also uses an AI-agent workflow, but not as an autonomous trading operator.
 
-**Audit and diagnostics**
+The useful role of agents is engineering support:
 
-Audit is not log noise. Audit is the layer from which a human or AI agent can
-later review what happened, in what context, and through which decision path.
-
-**Operator UI**
-
-The QDE native operator UI is macOS-oriented. A compatible Mac and Xcode
-environment is required for the full local UI workflow; the backend is based on
-Python `>=3.10`. The purpose of the UI is not to hide the system, but to make
-runtime, risk, audit, and diagnostics state more visible at the operator level.
-
-## Runtime Modes At A High Level
-
-The runtime modes in QDE should not be mixed together.
-
-**DEMO**
-
-Brokerless local orientation and smoke/evaluation path. Not LIVE trading.
-
-**LEARNING**
-
-Controlled learning / validation direction with a brokerless mindset. Not a
-profit promise and not deployable sizing proof.
-
-**BACKTEST**
-
-Offline / replay-style investigation. Useful for regression and setup-quality
-thinking, but not a future performance guarantee.
-
-**PAPER**
-
-The package has a paper/simulation direction with broker-shaped thinking. This
-does not automatically mean a broker-backed PAPER setup is ready or validated in
-a buyer environment.
-
-**LIVE**
-
-LIVE mode exists as a runtime direction, but production LIVE use requires a
-buyer-side broker adapter, buyer-owned credentials, market-data setup,
-validation, risk review, audit review, and your own decision. This public
-overview does not claim LIVE-ready or broker-ready status.
-
-## Broker Boundary
-
-QDE is not a broker recommendation and not broker account helpdesk.
-
-The commercial package contains a broker-adapter-ready architecture direction,
-but it does not include a built-in production broker adapter. The production
-adapter is buyer-side work.
-
-For broker-backed PAPER or LIVE direction, the buyer is responsible for:
-
-- broker selection;
-- broker account and permissions;
-- market-data setup;
-- handling credentials outside QDE source and agent prompts;
-- implementing or providing the adapter;
-- validating order submit / cancel / flatten / reconcile;
-- checking broker API terms, exchange rules, and account rules.
-
-You do not need to be scared of this, but it must not be treated as automatic
-either. The correct order is read-only broker slice, evidence, review,
-reconcile, understanding fail-closed behavior, and only later an order-capable
-direction.
-
-## AI Agent Workflow
-
-The AI agent around QDE is not a trading operator.
-
-It does not handle credentials. It does not decide real capital. It must not call
-a connection test broker-ready or LIVE-ready. It must not disable risk, audit,
-fail-closed behavior, or the broker boundary so something can "work".
-
-The useful agent role is technical review:
-
-- documentation consistency;
-- source/diff reading;
-- audit evidence interpretation;
-- broken-reference search;
-- overclaim filtering;
+- source and diff review;
+- documentation consistency checks;
+- audit and log interpretation;
+- root-cause analysis;
 - broker-boundary preflight;
-- review packet and uncertainty clarification.
+- test and verification review;
+- structured handoff between work and independent review.
 
-That is why the QDE agent workflow is evidence-first. Agent output by itself is
-not evidence. It needs source, diff, audit, config, test, run id, session id, or
-a masked evidence summary behind it.
+Agent output is not treated as evidence by itself. It must be tied back to
+source code, configuration, tests, audit records, logs, or clearly marked
+uncertainty.
 
-## What Does This Page Not Reveal?
+## Broker And Market-Data Boundary
 
-This public overview intentionally does not reveal:
+This public overview does not claim broker-ready or LIVE-ready status.
 
-- source-code details;
-- private package manifest;
-- private implementation notes;
-- model artifact details;
-- credential, account, or runtime secret information;
-- buyer-private delivery documentation;
-- a detailed list of exact internal thresholds / parameters;
-- broker adapter implementation detail that would count as private integration
-  work.
+Broker-backed operation requires buyer-side responsibility: broker account,
+permissions, credentials, market-data access, adapter work, validation,
+reconciliation, risk review, and compliance with broker, exchange, and account
+rules.
 
-This is not a gap. This is a boundary.
+Credentials should stay outside public repositories, documentation examples,
+agent prompts, and raw shared logs.
 
-The job of the public page is to show the thinking and the architecture
-direction. The commercial package, if delivered under an accepted order, is
-understood according to its separate package scope, license, disclaimer,
-applicable purchase terms, delivery manifest, and private technical
-documentation.
+## What This Overview Does Not Reveal
 
-## What Should You Understand From This?
+This page intentionally does not reveal:
 
-QDE is not interesting because it says: "here is the trade."
+- private source-code structure;
+- internal thresholds or exact runtime parameters;
+- private package manifest details;
+- model artifacts or training internals;
+- exact broker-adapter implementation details;
+- private delivery documentation;
+- buyer-specific setup, account, or runtime information.
 
-It is interesting because it tries to make the decision path more controlled.
+That is intentional. Public material should explain the direction without
+turning into private implementation documentation.
 
-It starts from data.
+## What To Understand From This
 
-Model and signal are only one part.
+QDE is best understood as deterministic execution infrastructure, not as a
+signal page or managed trading service.
 
-There is no execution without the risk gate.
+The important idea is not that the system claims to know the future. The
+important idea is that the execution workflow should be controlled, auditable,
+reviewable, and bounded by explicit risk and operator responsibility.
 
-In an uncertain state, the system must not pretend everything is fine.
-
-Without audit, there is no good review.
-
-You can work without an AI agent, but if you use an agent, it must be treated as
-an evidence-first reviewer, not as an operator replacement.
-
-That is the point of this technical overview:
+In short:
 
 > not a black box, but a reviewable execution infrastructure direction.
 
-For the next step, see the access/contact page: contact path, personal review,
-pre-order technical summary, terms, acceptance, payment, and only then any
-delivery.
+For next steps, see the access/contact page for contact path, public links,
+terms direction, and delivery boundary.
+
+---
+
+© 2026 Štefan Lengyel, trading as Stefan Len / QDE-Systems. All rights reserved.
+Licensed under the Commercial Source Code License. See `LICENSE.md`.

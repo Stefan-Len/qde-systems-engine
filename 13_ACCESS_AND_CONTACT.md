@@ -59,11 +59,12 @@ Do not send secrets, broker credentials, API keys, account identifiers, or live-
 
 Current public reference points:
 
-- GitHub repository: `https://github.com/Stefan-Len/qde-systems-engine`
-- QDE-Systems website: `https://qde-systems.com`
-- Technical overview / video link: to be added when available
-- X / Twitter: `https://x.com/StefanLen_QDE`
-- LinkedIn profile: `https://www.linkedin.com/in/stefanlengyel/`
+- GitHub repository: [Stefan-Len/qde-systems-engine](https://github.com/Stefan-Len/qde-systems-engine)
+- QDE-Systems website: [qde-systems.com](https://qde-systems.com)
+- Technical overview: [Read the public technical overview](14_TECHNICAL_OVERVIEW.md)
+- Demo video: [Watch a short QDE demo](https://drive.google.com/file/d/19hhlTOjj7928KlwJkiBvZwxWfaHXwMsf/view?usp=drive_link)
+- X / Twitter: [@StefanLen_QDE](https://x.com/StefanLen_QDE)
+- LinkedIn profile: [Stefan Lengyel](https://www.linkedin.com/in/stefanlengyel/)
 
 A sales-channel or checkout link may be added later if a launch flow uses one.
 
