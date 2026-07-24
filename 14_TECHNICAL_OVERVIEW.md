@@ -160,4 +160,4 @@ terms direction, and delivery boundary.
 ---
 
 © 2026 Štefan Lengyel, trading as Stefan Len / QDE-Systems. All rights reserved.
-Licensed under the Commercial Source Code License. See `LICENSE.md`.
+Licensed under the QDE-Systems Public Repository Content License. See `LICENSE.md`.

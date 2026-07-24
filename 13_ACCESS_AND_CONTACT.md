@@ -60,7 +60,7 @@ Current public reference points:
 - QDE-Systems website: [qde-systems.com](https://qde-systems.com)
 - Technical overview: [Read the public technical overview](14_TECHNICAL_OVERVIEW.md)
 - Demo video: [Watch a short QDE demo](https://drive.google.com/file/d/19hhlTOjj7928KlwJkiBvZwxWfaHXwMsf/view?usp=drive_link)
-- X / Twitter: [@StefanLen_QDE](https://x.com/StefanLen_QDE)
+- X / Twitter: [@StefanLenQDE](https://x.com/StefanLenQDE)
 - LinkedIn profile: [Stefan Lengyel](https://www.linkedin.com/in/stefanlengyel/)
 
 A sales-channel or checkout link may be added later if a launch flow uses one.
@@ -80,4 +80,4 @@ If that is what you are looking for, contact me briefly and professionally. I re
 ---
 
 © 2026 Štefan Lengyel, trading as Stefan Len / QDE-Systems. All rights reserved.
-Licensed under the Commercial Source Code License. See `LICENSE.md`.
+Licensed under the QDE-Systems Public Repository Content License. See `LICENSE.md`.
