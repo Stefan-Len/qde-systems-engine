@@ -33,15 +33,12 @@ This does not mean every future integration, broker adapter, deployment, custom 
 
 The package is a source-code and infrastructure foundation. It is not a managed service.
 
-## Price And Limited Availability
+## Pricing And Limited Availability
 
-The current planned launch price is:
+Current pricing and purchase conditions are shown on the active sales or
+checkout page when available.
 
-```text
-QDE ES Deterministic Execution Infrastructure Package: 3,500 USD
-```
-
-Pricing, availability, and launch conditions may change before public release.
+Pricing, availability, and launch conditions may change over time.
 
 Limited availability means I may choose to sell only a small number of packages, pause availability, or stop accepting new buyers.
 
