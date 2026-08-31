@@ -383,6 +383,4 @@ the English version controls.
 
 ## 22. Author
 
-Štefan Lengyel, trading as Stefan Len / QDE-Systems
-
-All rights reserved.
+© 2026 Štefan Lengyel, trading as Stefan Len / QDE-Systems. All rights reserved.
