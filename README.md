@@ -19,6 +19,12 @@
   <img alt="License: public content terms" src="https://img.shields.io/badge/license-public%20content%20terms-6b7280">
 </p>
 
+## Purchase the QDE-Systems Source Code Package
+
+The QDE-Systems source-code package is available for purchase here:
+
+[Purchase the QDE-Systems source-code package on Payhip](https://payhip.com/QDESystems)
+
 QDE-Systems is deterministic execution infrastructure for people who take
 trading seriously, but do not think only in setups and indicators.
 
